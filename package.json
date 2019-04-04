@@ -2,7 +2,7 @@
   "name": "victor-curriculo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://viteras007.github.io/curriculo",
+  "homepage": "https://viteras007.github.io/curriculo/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1",
@@ -16,7 +16,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jsdom",
     "predeploy:": "npm run build",
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
