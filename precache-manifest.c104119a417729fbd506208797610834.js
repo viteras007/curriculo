@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/curriculo/static/css/2.5e581853.chunk.css"
   },
   {
-    "revision": "c7cecb57c4e0931ee71889db5f5f8793",
+    "revision": "ab2ac5a54f480171d5feadae2ea5e674",
     "url": "/curriculo/index.html"
   }
 ];
