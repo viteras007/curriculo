@@ -13,34 +13,35 @@ class Contact extends Component {
                             alt="avatar"
                             style={{ height: '250px', borderRadius: '35%' }}
                         />
-                        <p style={{ fontFamily:'Titillium Web',width: '75%', margin: 'auto', paddingTop: '1em', fontSize:'1.3em' }}>Passionate about new technologies and willing to make a difference!</p>
+                        <p style={{ fontFamily: 'Titillium Web', width: '75%', margin: 'auto', paddingTop: '1em', fontSize: '1.3em' }}>Passionate about new technologies and willing to make a difference!</p>
                     </Cell>
                     <Cell col={6}>
                         <h2>Contact Me</h2>
                         <hr />
                         <div className="contact-list">
-                            <List>
-                                <ListItem>
-                                    <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                                        <i className="fa fa-phone-square" aria-hidden="true"/>
+                            <List className="list">
+                                <ListItem >
+                                    <ListItemContent className="listcont" style={{ fontSize: '1.5em', fontFamily: 'Anton' }}>
+                                        <i className="fa fa-phone-square" aria-hidden="true" />
                                         +55 (34) 98815-8368
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>
-                                    <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                                        <i className="fa fa-github" aria-hidden="true"/>
+                                    <ListItemContent style={{ fontSize: '1.5em', fontFamily: 'Anton' }}>
+                                        <i className="fa fa-github" aria-hidden="true" />
                                         viteras007
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>
-                                    <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                                    <ListItemContent className="cquery" style={{fontSize: '1.5em', fontFamily: 'Anton' }}>
                                         <i className="fa fa-envelope" aria-hidden="true"/>
+                                        
                                         viteras10@gmail.com
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>
-                                    <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
-                                        <i className="fa fa-linkedin" aria-hidden="true"/>
+                                    <ListItemContent style={{ fontSize: '1.5em', fontFamily: 'Anton' }}>
+                                        <i className="fa fa-linkedin" aria-hidden="true" />
                                         victor-hugomartins
                                     </ListItemContent>
                                 </ListItem>

@@ -51,7 +51,12 @@
   width: 50%;
   margin: auto;
 }
+@media screen and (min-width: 768px){
+  .cquery{    
+    font-size: 0.5em;
+  }
 
+}
 .contact-list i {
   font-size: 55px;
   padding-right: 5rem;

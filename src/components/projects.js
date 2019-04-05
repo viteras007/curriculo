@@ -9,8 +9,8 @@ class Projects extends Component {
     toggleCategories() {
         if (this.state.activeTab === 0) {
             return (
-                <div className="projects-grid">
-                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                <div className="projects-grid row">
+                    <Card className="col-sm" shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
                         <CardTitle style={{
                             justifyContent: 'center', color: 'black', height: '176px', background:
                                 'url(https://st2.depositphotos.com/1051996/10100/v/950/depositphotos_101008342-stock-illustration-concept-eat-healthy-icon-conceptual.jpg) center / cover'
@@ -25,7 +25,7 @@ class Projects extends Component {
                             <IconButton name="share" />
                         </CardMenu>
                     </Card>
-                    <Card shadow={5} style={{ minWidth: '450', margin: '5em' }}>
+                    <Card className="col-sm" shadow={5} style={{ minWidth: '450', margin: '2em' }}>
                         <CardTitle style={{
                             justifyContent: 'center', color: 'black', height: '176px', background:
                                 'url(https://robohash.org/static/img/top_logo.png) center / cover'
@@ -41,7 +41,7 @@ class Projects extends Component {
                             <IconButton name="share" />
                         </CardMenu>
                     </Card>
-                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                    <Card className="col-sm" shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
                         <CardTitle className="card-title" style={{
                             justifyContent: 'center', color: 'black', height: '176px', background:
                                 'url(https://image.fnbr.co/price/icon_vip.png) center / cover'
@@ -60,8 +60,8 @@ class Projects extends Component {
             )
         } else if (this.state.activeTab === 1) {
             return (
-                <div className="projects-grid">
-                    <Card shadow={5} style={{ minWidth: '450', margin: '5em' }}>
+                <div className="projects-grid row">
+                    <Card className="col-sm" shadow={5} style={{ minWidth: '450', margin: '2em' }}>
                         <CardTitle style={{
                             justifyContent: 'center', color: 'black', height: '176px', background:
                                 'url(https://cdn.auth0.com/blog/angular/logo.png) center / cover'
@@ -82,8 +82,8 @@ class Projects extends Component {
         }
         else if (this.state.activeTab === 2) {
             return (
-                <div className="projects-grid">
-                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                <div className="projects-grid row">
+                    <Card className="col-sm" shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{
                             justifyContent: 'center', color: 'black', height: '176px', background:
                                 'url(https://st2.depositphotos.com/1051996/10100/v/950/depositphotos_101008342-stock-illustration-concept-eat-healthy-icon-conceptual.jpg) center / cover'
@@ -98,7 +98,7 @@ class Projects extends Component {
                             <IconButton name="share" />
                         </CardMenu>
                     </Card>
-                    <Card shadow={5} style={{ minWidth: '450', margin: '5em' }}>
+                    <Card className="col-sm" shadow={5} style={{ minWidth: '450', margin: '2em' }}>
                         <CardTitle style={{
                             justifyContent: 'center', color: 'black', height: '176px', background:
                                 'url(https://cdn.iconscout.com/icon/premium/png-256-thumb/chat-1475-496821.png) center / cover'
