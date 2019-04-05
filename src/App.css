@@ -146,10 +146,10 @@
     padding: 1px;
   }
   .listcont{
-    font-size: 0.8em;
+    font-size: 0.5em;
   }
   .contact-list i {
-    font-size: 30px;
-    padding-right: 5rem;
+    font-size: 25px;
+    padding-right: 4rem;
   }
 }
