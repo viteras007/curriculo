@@ -1,5 +1,5 @@
 {
-  "main.css": "/curriculo/static/css/main.755a1b23.chunk.css",
+  "main.css": "/curriculo/static/css/main.d5018e6a.chunk.css",
   "main.js": "/curriculo/static/js/main.db79c13f.chunk.js",
   "main.js.map": "/curriculo/static/js/main.db79c13f.chunk.js.map",
   "runtime~main.js": "/curriculo/static/js/runtime~main.b71702cc.js",
@@ -8,8 +8,8 @@
   "static/js/2.258c28fe.chunk.js": "/curriculo/static/js/2.258c28fe.chunk.js",
   "static/js/2.258c28fe.chunk.js.map": "/curriculo/static/js/2.258c28fe.chunk.js.map",
   "index.html": "/curriculo/index.html",
-  "precache-manifest.b68d1b4c03be2cf09d47669705a54b9b.js": "/curriculo/precache-manifest.b68d1b4c03be2cf09d47669705a54b9b.js",
+  "precache-manifest.b1ac6e343e71653dab3187bc1b962ae0.js": "/curriculo/precache-manifest.b1ac6e343e71653dab3187bc1b962ae0.js",
   "service-worker.js": "/curriculo/service-worker.js",
   "static/css/2.5e581853.chunk.css.map": "/curriculo/static/css/2.5e581853.chunk.css.map",
-  "static/css/main.755a1b23.chunk.css.map": "/curriculo/static/css/main.755a1b23.chunk.css.map"
+  "static/css/main.d5018e6a.chunk.css.map": "/curriculo/static/css/main.d5018e6a.chunk.css.map"
 }
