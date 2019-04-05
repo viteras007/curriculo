@@ -21,26 +21,26 @@ class Contact extends Component {
                         <div className="contact-list">
                             <List className="list">
                                 <ListItem >
-                                    <ListItemContent className="listcont" style={{ fontSize: '1.5em', fontFamily: 'Anton' }}>
+                                    <ListItemContent className="listcont">
                                         <i className="fa fa-phone-square" aria-hidden="true" />
                                         +55 (34) 98815-8368
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>
-                                    <ListItemContent style={{ fontSize: '1.5em', fontFamily: 'Anton' }}>
+                                    <ListItemContent className="listcont">
                                         <i className="fa fa-github" aria-hidden="true" />
                                         viteras007
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>
-                                    <ListItemContent className="cquery" style={{fontSize: '1.5em', fontFamily: 'Anton' }}>
+                                    <ListItemContent className="listcont">
                                         <i className="fa fa-envelope" aria-hidden="true"/>
                                         
                                         viteras10@gmail.com
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>
-                                    <ListItemContent style={{ fontSize: '1.5em', fontFamily: 'Anton' }}>
+                                    <ListItemContent className="listcont">
                                         <i className="fa fa-linkedin" aria-hidden="true" />
                                         victor-hugomartins
                                     </ListItemContent>

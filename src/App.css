@@ -64,8 +64,8 @@
 
 .avatar-img{
   border-radius: 50%;
-  height: 300px;
-  width: 300px;
+  height: 15em;
+  width: 15em;
   margin-top: 4.1em;      
 }
 
@@ -82,31 +82,74 @@
   font-size: 60px;
   font-weight: bold;
   color: white;
-  text-align: center
-}
-
-.banner-text hr{
-  border-top: 5px dotted white;
-  width: 50%;
-  margin: auto;
-}
-
-.banner-text p {
-  color: white;
-  font-size: 20px;
-  padding: 1em;
   text-align: center;
 }
-
-.social-links{  
-  display: flex;
-  justify-content: space-between;
-  width: 25%;
-  margin: auto;
-}
-
-.social-links a{
-  color: white;
-  font-size: 5em;
-  padding: 8px;
+    .banner-text hr{
+      border-top: 5px dotted white;
+      width: 50%;
+      margin: auto;
+    }
+    
+    .banner-text p {
+      color: white;
+      font-size: 20px;
+      padding: 1em;
+      text-align: center;
+    }
+    
+    .social-links{  
+      display: flex;
+      justify-content: space-between;
+      width: 25%;
+      margin: auto;
+    }
+    
+    .social-links a{
+      color: white;
+      font-size: 5em;
+      padding: 8px;
+    }
+    .listcont{
+      font-size: 1.5em;
+      font-family: 'Anton', sans-serif;
+    }
+@media only screen and (max-width: 1024px) {
+  .banner-text{
+    background-color: black;
+    opacity: 0.8;
+    width: 85%;
+    margin: auto;
+    border-radius: 10px;
+  }
+  .banner-text h1{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center
+  }
+  .banner-text p {
+    color: white;
+    font-size: 10px;
+    padding: 0.2em;
+    text-align: center;
+  }
+  .social-links{  
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    margin: auto;
+  }
+  
+  .social-links a{
+    color: white;
+    font-size: 3em;
+    padding: 1px;
+  }
+  .listcont{
+    font-size: 0.8em;
+  }
+  .contact-list i {
+    font-size: 30px;
+    padding-right: 5rem;
+  }
 }
