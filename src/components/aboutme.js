@@ -68,7 +68,7 @@ class About extends Component {
                         />
                         <Skills
                             skill="NodeJS"
-                            progress={60}
+                            progress={70}
                         />
                         <Skills
                             skill="ExpressJS"
@@ -80,7 +80,7 @@ class About extends Component {
                         />
                         <Skills
                             skill="Angular 2+"
-                            progress={25}
+                            progress={60}
                         />
                     </Cell>
                 </Grid>
